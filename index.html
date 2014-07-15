@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>nativeDroid - Theme for jQuery Mobile</title>
+		
+		 <meta name="content type"  content="text/html;" http-equiv="content-type" charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+		<!-- Extras for: Cards.html -->
+	    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+		
+		
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+		
+
+		
+		
+
+
+
+			<!-- Mi Javascript propio -->
+		<script src="http://msnzapps.com/coleccion/kamasutra/js/miJS.js"></script>
+		
+    </head>
+    <body>
+
+	
+	
+	
+<!-- Start -->	
+<div data-role="page" data-theme='b' id="page_vertodas">
+<script type="text/javascript">
+
+</script> 
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
+            <h1>Cards</h1>
+        </div>
+        
+        <div data-role="content">   
+		<br>	
+		<ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="b">
+
+            <li id="li1" style="" >
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-9);">
+                <img id="idimg1" src="" width="150" height="150">
+                <h2  id="titulo1"></h2>
+                <p id="txtt1"></p>
+             </a>
+			</li>
+
+			<br>
+			
+            <li id="li2" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-8);">
+                <img id="idimg2" src="" width="150" height="150">
+                <h2  id="titulo2"></h2>
+                <p id="txtt2"></p>
+             </a>
+			</li>
+
+			<br>		
+			
+            <li id="li3" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-7);">
+                <img id="idimg3" src="" width="150" height="150">
+                <h2  id="titulo3"></h2>
+                <p id="txtt3"></p>
+             </a>
+			</li>
+
+			<br>
+			
+            <li id="li4" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-6);">
+                <img id="idimg4" src="" width="150" height="150">
+                <h2  id="titulo4"></h2>
+                <p id="txtt4"></p>
+             </a>
+			</li>
+
+			<br>			
+			
+            <li id="li5" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-5);">
+                <img id="idimg5" src="" width="150" height="150">
+                <h2  id="titulo5"></h2>
+                <p id="txtt5"></p>
+             </a>
+			</li>
+
+			<br>	
+
+            <li id="li6" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-4);">
+                <img id="idimg6" src="" width="150" height="150">
+                <h2  id="titulo6"></h2>
+                <p id="txtt6"></p>
+             </a>
+			</li>
+
+			<br>
+
+            <li id="li7" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-3);">
+                <img id="idimg7" src="" width="150" height="150">
+                <h2  id="titulo7"></h2>
+                <p id="txtt7"></p>
+             </a>
+			</li>
+
+			<br>
+
+            <li id="li8" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-2);">
+                <img id="idimg8" src="" width="150" height="150">
+                <h2  id="titulo8"></h2>
+                <p id="txtt8"></p>
+             </a>
+			</li>
+
+			<br>	
+
+            <li id="li9" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-1);">
+                <img id="idimg9" src="" width="150" height="150">
+                <h2  id="titulo9"></h2>
+                <p id="txtt9"></p>
+             </a>
+			</li>
+
+			<br>
+			
+            <li id="li10" style="">
+			 <a href="#page_ver_una" onclick="VerTarjeta((PagActual*10)-0);">
+                <img id="idimg10" src="" width="150" height="150">
+                <h2  id="titulo10"></h2>
+                <p id="txtt10"></p>
+             </a>
+			</li>
+
+			<br>			
+			
+			
+        </ul>   
+        </div>
+		
+		
+		<div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b' data-id="footer_ver_todas">
+			<div data-role="navbar">
+				<ul>
+					<li onclick="PagActual--;Recargar_Ver_Todas();refreshPage();"><a href="#page_vertodas"><i class='blIcon fa fa-chevron-left'></i>Atrás</a></li>
+					<li><a href="#"><i class='blIcon fa fa-home'></i>Inicio</a></li>
+					<li onclick="PagActual++; Recargar_Ver_Todas();refreshPage();"><a href="#page_vertodas"><i class='blIcon fa fa-chevron-right'></i>Siguiente</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+</div>
+<!-- Fin -->		
+	
+	
+	
+	
+	
+<!-- Start -->
+<div data-role="page" data-theme='b' id="page_ver_una">
+
+	<script type="text/javascript">
+	
+
+
+
+
+	</script>
+
+
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="index.html" data-ajax="false"><i class='fa fa-bars'></i></a>
+            <h1>Cards</h1>
+        </div>
+        
+        <div data-role="content">   
+
+
+			<ul data-nativedroid-plugin='cards'>
+	
+				<li data-cards-type='text'>
+				
+					<h1 id="card_titulo1"></h1>
+					<div id="card_separador"></div>
+					<br>
+					<div id="card_imagen"><img id="card_idimg1" src=""></div>	
+					<p id="card_txtt1"></p>
+
+				</li>
+							
+
+			</ul>
+
+	        
+        </div>
+
+
+
+
+</div>
+<!-- Fin -->	
+	
+	
+	
+	
+	
+	
+    
+    <script src="js/nativedroid.script.js"></script>
+    </body>
+</html>

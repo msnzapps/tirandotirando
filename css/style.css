@@ -1,0 +1,11 @@
+#card_separador{
+height:10px;
+width:100%;
+border-bottom: 1px solid #ccc;
+
+
+}
+
+#card_imagen{
+text-align:center;
+}
